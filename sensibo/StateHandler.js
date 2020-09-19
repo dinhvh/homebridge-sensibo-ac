@@ -44,8 +44,8 @@ module.exports = (device, platform) => {
 	
 		set: (state, prop, value) => {
 			
-			if (prop in state && state[prop] === value)
-				return
+			// if (prop in state && state[prop] === value)
+			//   return
 
 			state[prop] = value
 			
